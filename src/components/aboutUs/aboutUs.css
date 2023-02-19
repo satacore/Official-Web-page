@@ -1,0 +1,24 @@
+.aboutUsContainer{
+    width: 1920px;
+    height: 899px;
+    background-color: rgb(7, 14, 14);
+    margin-top: 70px;
+}
+.sloganContainer{
+    height: 400px;
+    width: 700px;
+}
+.slogan{
+    padding-top: 300px;
+    margin-left: 400px;
+    margin-bottom: 0;
+    font-size: 80px;
+
+}
+.slogaSubtitle{
+    margin-left: 400px;
+    margin-top: 0;
+}
+.slogaSubtitle span{
+    color: #2e96d2;
+}

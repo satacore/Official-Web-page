@@ -20,7 +20,7 @@ header {
     padding: 0 2rem;
     background-color: var(--mainColor);
     color: black;
-    font-family: 'Roboto', sans-serif
+    font-family: 'Roboto', sans-serif;
 }
 header nav{
     width: 600px;
@@ -28,6 +28,13 @@ header nav{
     justify-content: space-between;
     padding-right: 50px;
 }
+
+a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}    
 
 img {
     max-width: 10%;

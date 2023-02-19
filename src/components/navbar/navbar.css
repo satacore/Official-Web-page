@@ -9,7 +9,7 @@
 }
 
 :root{
-    --mainColor:#2e96d2; 
+    --mainColor:#3c3f3b; 
 }
 
 header {
@@ -27,4 +27,8 @@ header nav{
     display: flex;
     justify-content: space-between;
     padding-right: 50px;
+}
+
+img {
+    max-width: 10%;
 }

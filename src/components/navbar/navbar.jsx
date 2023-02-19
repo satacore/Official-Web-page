@@ -1,11 +1,12 @@
 import './navbar.css'
 import React from 'react'
+import Logo from '../../assets/Navbarlogo.png'
 
 
 const Navbar = () => {
   return (
     <header>
-       <h1>Logo</h1>
+       <img src={Logo} alt="" />
        <nav>
           <a href='/#'>About Us</a>
           <a href='/#'>Services</a>

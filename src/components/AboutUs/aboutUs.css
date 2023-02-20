@@ -1,10 +1,49 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
+@import url('https://fonts.cdnfonts.com/css/gilroy-bold%27');
+
 .aboutUsContainer{
     height: 1080px;
-    display: flex;
     background-color: white;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box
+}
+.titleContainer{
+    padding: 300px 0px 0px 400px;
+    display: block;
+    height: fit-content;
+    width: fit-content;
+    position: relative;
+}
+.titleContainer .p1{
+    font-size: 80px;
+    font-weight: 400;
+}
+
+.titleContainer .p2{
+    font-size: 100px;
+    font-weight: 400;
+    margin-bottom: 300px;
+    position: absolute;
+    height: fit-content;
+    right: 0;
+    top: 0;
+    padding: 320px 0px 0px 400px;
+
+}
+.descriptionContainer{
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    justify-content:center;
+}
+.descriptionContainer p{
+    width: fit-content;
+    margin: 100px 250px 0px 700px;
+    font-size: 30px;
+    font-family: 'gilroy', sans-serif;
+    font-weight: 600;
+    color: #2e96d2;
+    border: solid 2px black;
+    padding: 25px;
+    border-radius: 15px;
 }

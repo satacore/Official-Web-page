@@ -1,7 +1,7 @@
 import './App.css'
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
-import Home from './components/Home/Home.jsx';
-import Navbar from './components/navbar/Navbar.jsx'
+import Navbar from './components/Navbar/Navbar.jsx'
+import SPA from './components/SPA/SPA.jsx';
 
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
     <BrowserRouter>
     <Navbar/>
       <Routes>
-        <Route path='/' element={<Home/>} />
+        <Route path='/' element={<SPA/>} />
       </Routes>
     </BrowserRouter>
   );

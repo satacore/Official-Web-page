@@ -1,15 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Roboto:wght@100&display=swap%27');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Roboto:wght@100&display=swap%27%27);
+@import url('https://fonts.cdnfonts.com/css/gilroy-bold%27);
 
 *{
     padding: 0px;
     margin: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-    font-family: 'Roboto', sans-serif
+    font-family: 'Roboto', sans-serif;
 }
 
 :root{
-    --mainColor:#3c3f3b; 
+    --mainColor:white; 
 }
 
 header {
@@ -23,18 +24,20 @@ header {
     font-family: 'Roboto', sans-serif;
 }
 header nav{
-    width: 600px;
+    width: 800px;
     display: flex;
     justify-content: space-between;
+    padding-top: 10px;
     padding-right: 50px;
 }
 
 a{
     text-decoration: none;
-    color: white;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 500;
-}    
+    font-size: 12px;
+    color:#1a1717;
+    font-family: 'gilroy', sans-serif;
+    font-weight: 400;
+}
 
 img {
     max-width: 10%;

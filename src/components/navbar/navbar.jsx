@@ -8,14 +8,14 @@ const Navbar = () => {
     <header>
        <img src={Logo} alt="" />
        <nav>
-          <a href='/#'>About Us</a>
-          <a href='/#'>Services</a>
-          <a href='/#'>Clients</a>
-          <a href='/#'>Contact</a>
+          <a href='/#'>ABOUT US</a>
+          <a href='/#'>SERVICES</a>
+          <a href='/#'>CLIENTS</a>
+          <a href='/#'>CONTACT</a>
        </nav>
     </header>
 
 
   )
 }
-export default Navbar
+export default Navbar 

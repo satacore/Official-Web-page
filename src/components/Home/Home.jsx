@@ -1,8 +1,8 @@
-import './aboutUs.css'
+import './home.css'
 import React from 'react'
 
 
-const AboutUs = () => {
+const Home = () => {
   return (
     <div className='aboutUsContainer'>
         <div className='sloganContainer'>
@@ -13,4 +13,4 @@ const AboutUs = () => {
   )
 }
 
-export default AboutUs
+export default Home

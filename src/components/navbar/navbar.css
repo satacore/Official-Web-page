@@ -43,5 +43,45 @@ img {
     max-width: 10%;
 }
 p{
-    cursor: pointer;;
+    cursor: pointer;
+    
+}
+
+button {
+    font-size: 12px;
+    color: #222222;
+    font-family: 'gilroy', sans-serif;
+    cursor: pointer;
+    position: relative;
+    border: none;
+    background: none;
+    text-transform: uppercase;
+    transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+    transition-duration: 400ms;
+    transition-property: color;
+}
+
+button:focus,
+button:hover {
+    color: #1d1b1b;
+}
+
+button:focus:after,
+button:hover:after {
+    width: 100%;
+    left: 0%;
+}
+
+button:after {
+    content: "";
+    pointer-events: none;
+    bottom: -2px;
+    left: 50%;
+    position: absolute;
+    width: 0%;
+    height: 1px;
+    background-color: #181717;
+    transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+    transition-duration: 800ms;
+    transition-property: width, left;
 }
